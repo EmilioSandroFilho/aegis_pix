@@ -7,3 +7,10 @@ dist/
 build/
 .pytest_cache/
 .mypy_cache/
+
+# dados sintéticos gerados (grandes, reproduzíveis pelo script em src/)
+data/generated/*
+!data/generated/.gitkeep
+
+# checkpoints do Jupyter
+.ipynb_checkpoints/
